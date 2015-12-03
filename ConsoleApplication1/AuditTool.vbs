@@ -4,7 +4,7 @@
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 '''                                                                                                  '''
-'''		AUDIT TOOL Version 1.1                                                                       '''
+'''		AUDIT TOOL Version 1.1   ONERAN VERSION                                                                    '''
 '''		DATE: 15/10/2015                                                                             '''
 '''		DEVELOPED BY: Manuel Rivera (manuel.rivera@ericsson.com)                                     '''
 '''		COMMENTS: Script developed in order to create site logs while perfomring an audit site }     '''

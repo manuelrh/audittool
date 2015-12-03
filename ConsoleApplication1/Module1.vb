@@ -3,5 +3,8 @@
     Sub Main()
 
     End Sub
+    Sub test()
+
+    End Sub
 
 End Module
