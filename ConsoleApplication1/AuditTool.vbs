@@ -582,9 +582,17 @@ Sub DU_StatusCheck()
 		End If
 		
 		TabRbs.Screen.Send "cvms " & CVName & " " & CVUser & " " & rbsCVComment & VbCr
-		TabRbs.Screen.WaitForString ("Total:")
-		TabRbs.Screen.WaitForString ("Total:")
-		TabRbs.Screen.WaitForString siteName & "> "
+		TabRbs.Screen.WaitForString("Total:")
+		TabRbs.Screen.WaitForString("Total:")
+		TabRbs.Screen.WaitForString(siteName & "> ")
+
+        TabRbs.Screen.Send "facc ConfigurationVersion=1 setFirstRollbackList " & CVName
+        nResult = TabRbs.Screen.WaitForStrings(vWaitFors)
+        If nResult = 1 Then
+			TabRbs.Screen.Send "y" & VbCr
+			TabRbs.Screen.WaitForStrings(vWaitFors)
+		End If
+
 		
 		If technology Then
 		
