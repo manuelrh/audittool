@@ -368,7 +368,7 @@ Sub Main
 	
 	
 	''' SETING DATABASE VARIABLES
-	connectionString = "Driver={MySQL ODBC 5.1 Driver};Server=146.250.116.41; Database=rlam_audit_tool; Uid=rlamuser; Pwd=rlamuser; Allow User Variables=True;"
+	'connectionString = "Driver={MySQL ODBC 5.1 Driver};Server=146.250.116.41; Database=rlam_audit_tool; Uid=rlamuser; Pwd=rlamuser; Allow User Variables=True;"
 	'connectionString = "Driver={MySQL ODBC 5.1 Driver};Server=127.0.0.1; Database=audittoolrlam; Uid=root; Pwd=; Allow User Variables=True;"
 	
 	CHour = DatePart("h" ,now) : if Len(CHour) = 1 then CHour = "0" & CHour : End if
